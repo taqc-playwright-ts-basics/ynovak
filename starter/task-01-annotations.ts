@@ -30,7 +30,7 @@ export let isAutomated: boolean = true;
 export let timeoutMs: number = 5000;
 
 // DONE: Навмисна помилка / Intentional error:
-export let browserName: string = "chrome";
+export let browserName: string = "chromium";
 
 // DONE: Навмисна помилка / Intentional error:
 export let isSkipped: boolean = false;
