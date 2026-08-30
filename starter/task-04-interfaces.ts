@@ -39,18 +39,18 @@ export interface TestCase {
 // DONE: firstCase (без owner / without owner) — export const firstCase: TestCase = ...
 export const firstCase: TestCase = {
   id: 1,
-  name: "First test case",
+  name: "Login page is loaded",
   status: "passed",
-  tags: ["tag1"]
+  tags: ["smoke", "login page"]
 };
 
 // DONE: secondCase (з owner / with owner) — export const secondCase: TestCase = ...
 export const secondCase: TestCase = {
   id: 2,
-  name: "Second test case",
+  name: "User can log in with valid credentials",
   status: "failed",
-  owner: "John Doe",
-  tags: ["tag2", "tag3"]
+  owner: "Yaroslav Novak",
+  tags: ["smoke", "login page", "user login"]
 };
 
 export {};
