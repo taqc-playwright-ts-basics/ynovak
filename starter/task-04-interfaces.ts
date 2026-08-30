@@ -30,7 +30,7 @@
 // DONE: опиши й експортуй TestCase / define and export TestCase
 export interface TestCase {
   id: number;
-  title: string;
+  name: string;
   status: "passed" | "failed" | "skipped";
   owner?: string;
   tags: string[];
@@ -39,7 +39,7 @@ export interface TestCase {
 // DONE: firstCase (без owner / without owner) — export const firstCase: TestCase = ...
 export const firstCase: TestCase = {
   id: 1,
-  title: "First test case",
+  name: "First test case",
   status: "passed",
   tags: ["tag1"]
 };
@@ -47,7 +47,7 @@ export const firstCase: TestCase = {
 // DONE: secondCase (з owner / with owner) — export const secondCase: TestCase = ...
 export const secondCase: TestCase = {
   id: 2,
-  title: "Second test case",
+  name: "Second test case",
   status: "failed",
   owner: "John Doe",
   tags: ["tag2", "tag3"]
