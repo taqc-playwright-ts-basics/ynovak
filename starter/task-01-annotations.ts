@@ -17,23 +17,23 @@
  * - усі навмисні помилки знайдено й виправлено / all intentional errors are found and fixed
  */
 
-// TODO: додай явну анотацію типу / add an explicit type annotation
-export let testCaseTitle = "Login with valid credentials";
+// DONE: додай явну анотацію типу / add an explicit type annotation
+export let testCaseTitle: string = "Login with valid credentials";
 
-// TODO: додай явну анотацію типу / add an explicit type annotation
-export let retryCount = 3;
+// DONE: додай явну анотацію типу / add an explicit type annotation
+export let retryCount: number = 3;
 
-// TODO: додай явну анотацію типу / add an explicit type annotation
-export let isAutomated = true;
+// DONE: додай явну анотацію типу / add an explicit type annotation
+export let isAutomated: boolean = true;
 
-// Навмисна помилка / Intentional error:
-export let timeoutMs: number = "5000";
+// DONE: Навмисна помилка / Intentional error:
+export let timeoutMs: number = 5000;
 
-// Навмисна помилка / Intentional error:
-export let browserName: string = 404;
+// DONE: Навмисна помилка / Intentional error:
+export let browserName: string = "chromium";
 
-// Навмисна помилка / Intentional error:
-export let isSkipped: boolean = "false";
+// DONE: Навмисна помилка / Intentional error:
+export let isSkipped: boolean = false;
 
 export const tags = ["smoke", "regression"];
 export const maxUsers = 50;
